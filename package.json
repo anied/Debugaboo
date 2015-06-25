@@ -1,0 +1,14 @@
+{
+  "name": "Debugaboo",
+  "version": "0.0.0",
+  "description": "Presentation for a quick primer on all the features and functionality available in the Chrome developer tools for Javascript Debugging",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "author": "Alexander Nied",
+  "dependencies": {
+    "http-server": "~0.8.0",
+    "bower": "~1.4.1"
+  }
+}

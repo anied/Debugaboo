@@ -1,0 +1,21 @@
+{
+  "name": "Debugaboo",
+  "version": "0.0.0",
+  "authors": [
+    "Alexander Nied"
+  ],
+  "description": "Presentation for a quick primer on all the features and functionality available in the Chrome developer tools for Javascript Debugging",
+  "main": "webroot/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webroot/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal-js": "~2.6.2"
+  }
+}

@@ -1,0 +1,21 @@
+DevTools talk:
+
+ - Simple breakpoints - add, enable, disable, group enable/disable
+ - Navigating in debug mode
+ 	- Pause
+ 	- Play/Continue
+ 	- Step over
+ 	- Step in
+ 	- Step out
+ 	- Hover/console/Watch/change 'n' save
+ 	- Continue
+ - Additional ways to have the code enter debug mode
+ 	- Conditional breakpoints
+ 	- The "debugger" command
+ 	- Break on error
+ 	- DOM/XHR/Event listner breakpoints
+ - Stack tracing
+ 	- Sources panel
+ 	- Network panel
+ - console....
+ - Local files
