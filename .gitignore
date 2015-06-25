@@ -4,3 +4,4 @@ node_modules
 .idea
 **/Thumbs.db
 */libs
+/.project

@@ -5,7 +5,7 @@
     "Alexander Nied"
   ],
   "description": "Presentation for a quick primer on all the features and functionality available in the Chrome developer tools for Javascript Debugging",
-  "main": "webroot/index.html",
+  "main": "/webroot/index.html",
   "license": "MIT",
   "ignore": [
     "**/.*",

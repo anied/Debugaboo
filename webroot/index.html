@@ -51,12 +51,60 @@
 				</section>
 
 				<section data-transition="fade" data-background="img/Debugaboo.jpg" data-background-size="contain">
-					<div data-transition="fade" class="fragment title-block">
+					<div data-transition="fade" class="fragment" id="title-block">
 						<h1>Debug A Boo</h1>
 						<h3>Javascript Debugging with the Chrome Development Tools</h3>
 						<p>
 							<small>Created by Alexander Nied</small>
 						</p>
+					</div>
+				</section>
+
+				<section data-background="img/dinobrowsers.jpg" data-background-size="contain" >
+					<div class="fragment content-overlay" >
+						<h3 class="no-margin">Debugging Javascript used to be hard.</h3>
+					</div>
+				</section>
+
+				<section>
+					<h3>But now Debugging Javascript is <span class="line-thru">easy!</span> easier</h3>
+				</section>
+
+				<section data-background="img/chromegear.png" data-background-size="80%">
+					<!-- <h3 data-transition="zoom" class="fragment">CHROME!</h3> -->
+				</section>
+
+				<section data-background="img/breakpoint.png" data-background-size="80%">
+					<h2 class="no-margin nudge-center">Basic Breakpoints</h2>
+				</section>
+
+				<section data-background="img/breakpoint.png" data-background-size="80%">
+					<h3>Basic Breakpoint Mechanics</h3>
+					<ul>
+						<li class="fragment">Add/Remove</li>
+						<li class="fragment">Enable/Disable</li>
+						<li class="fragment">Group Enable/Disable</li>
+					</ul>
+				</section>
+
+				<section data-background="img/jobsremote.jpg">
+					<div class="content-overlay fragment">
+						<h2 class="no-margin">Navigating In Debug Mode</h2>
+					</div>
+				</section>
+
+				<section data-background="img/pause.png" data-background-size="40%" >
+					<div class="content-overlay">
+						<h3>Pause</h3>
+						<p>Just what it sounds like-- pauses execution at exactly the moment you push it.  As you can imagine, this has pretty limited usefulness.  Much better to enter debug mode using breakpoints or some other more controlled method.</p>
+					</div>
+				</section>
+
+				<section data-background="img/play.png" data-background-size="40%" >
+					<div class="content-overlay">
+						<h3>Play</h3>
+						<p>When you _are_ in a paused state, pushing the `continue` button allows scripts to continue execution as normal, until they hit the next breakpoint.</p>
+						<p>Additionally, the Chrome dev tools have an additional `play` button which will continue and ignore all breakpoints for 500ms-- perfect for allowing a page to continue loading when you have a breakpoint in a `for` loop.</p>
 					</div>
 				</section>
 
