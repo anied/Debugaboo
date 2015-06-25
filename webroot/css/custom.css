@@ -25,9 +25,13 @@
 .reveal .slides .light {
 	background-color: rgba(255,255,255,.7);
 }
+.reveal .slides .content-overlay blockquote {
+	background: transparent;
+}
 .light h1, .light h2,
 .light h3, .light h4,
-.light h5, .light h6 {
+.light h5, .light h6,
+.light p, .light li {
 	color: #333;
 }
 .reveal .slides .no-margin {
@@ -42,4 +46,17 @@
 h2.nudge-center {
 	/*position: relative;*/
 	top: 0.3em
+}
+.reveal code {
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(100,100,100,100.04);
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+.reveal .light code {
+	color: #DDD;
 }
